@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It showed where the difference was between the old file (which worked before)
+and the new file (which no longer worked). Since only the changes were 
+shown, the bug could be caught much faster than if I were to look at both
+files manually.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It can help me pin down when a bug was introduced to the code base and what addition or
+deletion introduced the bug.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+You end up with commits that have logical changes made to them in an order that is easy to understand.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like
+Google Docs, treat each file separately?
+For Git, which was made for coding, it's not unusual to have multiple files change between commits.
+For other version control systems, like Google Docs, the typical file repository would have files that are independent
+of each other.
+
+How can you use the commands git log and git diff to view the history of files?
+You can use git log to view the history of commits to a repository and git diff to view the changes between two commits.
+Using both of these allows you to view the changes of a repository through it's entire history.
+
+How might using version control make you more confident to make changes that could break something?
+Having a history of all of my code changes from the start means that even a game breaking bug or a fatal error
+can be fixed by finding the commit it was introduced in and checking out the version before.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use Git to learn how to make a repository for my game projects. I'm tired of making the smallest steps
+towards completing projects while being fearful of breaking my existing features.
