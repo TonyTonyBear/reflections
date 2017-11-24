@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 When a repository is initialized, Git sets up metadata files that allow it to record commits and general version control
 functions. This needs to be done so project files can be committed to the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It acts as an intermediary step between the working directory and the repository.
+This is valuable because you have the ability to review and confirm what files are being changed before committing to the
+repository.
