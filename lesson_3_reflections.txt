@@ -6,3 +6,11 @@ Why might you want to always pull changes manually rather than having Git automa
 remote repository?
 You may not want to have automatic updates in the case where the files you are working on in the local repository
 can be altered (or broken) from the update from the remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A branch exists in a single repository, A clone is a copy of a repository that exists on a local or remote machine.
+A fork is a copy of someone else's repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can fetch the current version when you want to merge and determine where you need to make changes (if needed).
+
