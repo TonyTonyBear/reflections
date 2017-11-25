@@ -10,3 +10,15 @@ repository.
 How can you use the staging area to make sure you have one commit per logical change?
 You can verify that only logical changes are staged by using using 'git status' to check staged files and 
 'git diff' to verify the changes line by line.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A particular situation where branches would be helpful would be when multiple game systems are being implemented concurrently.
+Branches would help since these branches can be worked on while a stable version exists on the master branch that can be
+shown off.
+
+How do the diagrams help you visualize the branch structure?
+They help by showing the nonlinearity that a repository's history can take.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When two branches are merged together, all of the changes made from both file are combined into a new branch.
+We represent it in the diagram as two nodes connecting into one to show this relationship.
