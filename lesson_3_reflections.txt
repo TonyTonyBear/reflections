@@ -14,3 +14,6 @@ A fork is a copy of someone else's repository.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can fetch the current version when you want to merge and determine where you need to make changes (if needed).
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You could always collaborate by trading zip files. While recieving the new files would be easier,
+merging and maintaining the newest copy would be considerably harder.
